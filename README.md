@@ -6,7 +6,7 @@
 [![Build](https://img.shields.io/badge/Build-v10.1%20Release%20%2F%20No--Log-success)](https://github.com/connectivezone/Aksys-shim-no-logging/releases)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-A lightweight 32-bit user-mode WinUSB proxy shim (`version.dll`) that allows **Akai ak.Sys (v1.53)** to run seamlessly on **64-bit Windows 11, Windows 10, and Windows 7** without custom kernel drivers, without disabling Windows Driver Signature Enforcement, and without test-signing mode.
+A lightweight 32-bit user-mode WinUSB proxy shim (`version.dll`) that allows **Akai ak.Sys (v1.53+) (V2.53 Recommended)** to run seamlessly on **64-bit Windows 11, Windows 10, and Windows 7** without custom kernel drivers, without disabling Windows Driver Signature Enforcement, and without test-signing mode.
 
 This is the **Release / No-Logging** build: all diagnostic file writing has been compiled out into inline no-ops, providing zero disk I/O overhead and maximum USB transfer bandwidth for high-speed sample dumps, program transfers, and real-time screen streaming.
 
